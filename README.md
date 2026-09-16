@@ -1,4 +1,4 @@
-# የግጥም ውይይት (Poetry Conversation)
+# The Poet Society
 
 An elegant, modern, mobile-first Amharic poetry platform where users can read poems, write and publish poems, and reply to form a continuous poetic conversation.
 
