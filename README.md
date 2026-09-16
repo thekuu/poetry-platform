@@ -60,6 +60,3 @@ Start the production server:
 ```bash
 npm start
 ```
-
-## Anonymous Ownership Mechanism
-The platform uses a cryptographically secure anonymous token generated on the client-side during the user's first interaction (writing a poem or reply). This token is stored in the browser's `localStorage` and sent with requests. The backend hashes this token using `SHA-256` before storing it in the database. When editing or deleting, the backend verifies that the hash of the provided token matches the stored hash, ensuring secure ownership without user accounts or passwords.
